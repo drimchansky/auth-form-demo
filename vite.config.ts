@@ -8,5 +8,6 @@ export default defineConfig({
   plugins: [react(), tsconfigPaths(), tailwindcss()],
   server: {
     port: 5757
-  }
+  },
+  base: '/auth-form-demo/'
 })

@@ -4,7 +4,7 @@ import { MainLayout } from '@/app/layouts/MainLayout'
 import { Home } from '@/pages/Home'
 
 export const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/auth-form-demo">
     <Routes>
       <Route element={<MainLayout />} path="/">
         <Route element={<Home />} index />
